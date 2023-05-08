@@ -17,6 +17,6 @@ class EncuestaSeeder extends Seeder
     {
         DB::table('encuestas')->insert([
             'descripcion' => "encuesta para estudiantes",
-        ]);
+        ],);
     }
 }
